@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    grid-gap: 0.25rem;
+    font-family: Arial;
+}
+
+.item {
+    background-color: yellow;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}

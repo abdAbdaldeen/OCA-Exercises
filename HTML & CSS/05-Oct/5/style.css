@@ -1,0 +1,39 @@
+body {
+    background-color: #FFFFBA;
+}
+
+.container {
+    margin: auto;
+    width: 25rem;
+    padding: 1em;
+    border-radius: 75px;
+    background-color: white;
+    box-shadow: 10px 10px 30px #F0F0CD;
+
+}
+
+.item {
+    display: flex;
+
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+    margin-right: 1em;
+}
+
+hr {
+    border-top: 1px solid rgb(211, 211, 211);
+}
+
+.name {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.city {
+    margin-top: .2em;
+    color: rgb(182, 182, 182);
+}

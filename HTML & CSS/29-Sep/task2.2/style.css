@@ -1,0 +1,23 @@
+h2 {
+    text-decoration: underline;
+    color: black;
+  }
+
+  .blue{
+      color: blue;
+  }
+.orange{
+    color: orange;
+}
+#yellow{
+    color: purple;
+    background-color: yellow;
+}
+
+.red{
+    color: red;
+}
+
+  #non{
+    list-style-type: none;
+  }

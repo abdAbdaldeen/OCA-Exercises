@@ -1,0 +1,40 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    font-size: 3em;
+    text-align: center;
+    height: 100%;
+}
+
+#f {
+    background-color: orange;
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#s {
+    background-color: blue;
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    #container {
+        flex-direction: column;
+    }
+}

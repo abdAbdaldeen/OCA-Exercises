@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Registration Form</h2>
+    <div id="out">
+      <form>
+        <fieldset>
+          <legend>Personal details</legend>
+          <span id="name">
+            <label for="fname">First name </label>
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              value="John"
+            /><br /><br />
+            <label for="lname">Last name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              value="Doe"
+            /><br /><br />
+            <label for="email">Email address</label>
+            <input type="email" id="email" /><br /><br />
+            <div id="in">
+              <label>Gender</label>
+              <input type="radio" id="male" name="gender" value="male" />
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gender" value="female" />
+              <label for="female">Female</label><br /><br />
+            </div>
+          </span>
+        </fieldset>
+        <fieldset>
+          <legend>City</legend>
+<div class="cente">
+          <label  for="city">City</label>
+          <select id="city">
+            <option value="1">amman</option>
+            <option value="2">zarqa</option>
+            <option value="3">irbid</option>
+          </select>
+        </div>
+        </fieldset>
+        <div id="submit">
+          <br /><br />
+        <input type="submit" value="Subscribe" />
+      </div>
+      </form>
+    </div>
+  </body>
+</html>

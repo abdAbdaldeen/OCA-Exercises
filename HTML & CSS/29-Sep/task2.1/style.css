@@ -1,0 +1,26 @@
+#out{
+    margin: auto;
+    width: 400px;
+
+}
+#name{
+    float: right;
+    text-align: right;
+    padding-right: 15%;
+}
+#in{
+  text-align: center;
+}
+fieldset,form{
+  width: 100%;
+}
+.cente{
+  text-align: center;
+}
+#submit{
+  text-align: center;
+}
+
+fieldset{
+  background-color: #FFFFDC;
+}

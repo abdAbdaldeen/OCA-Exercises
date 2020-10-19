@@ -1,0 +1,121 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+p {
+  padding: 1rem 0;
+  margin: 0;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  grid-gap: 0.5rem;
+}
+
+.container .item {
+  background-color: #fcd800;
+}
+
+.item:nth-child(1) {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 13;
+}
+
+.item:nth-child(2) {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 7;
+}
+
+.item:nth-child(3) {
+  -ms-grid-column: 7;
+      grid-column-start: 7;
+  grid-column-end: 13;
+}
+
+.item:nth-child(4) {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.item:nth-child(5) {
+  -ms-grid-column: 5;
+      grid-column-start: 5;
+  grid-column-end: 9;
+}
+
+.item:nth-child(6) {
+  -ms-grid-column: 9;
+      grid-column-start: 9;
+  grid-column-end: 13;
+}
+
+.item:nth-child(7) {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.item:nth-child(8) {
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-column-end: 7;
+}
+
+.item:nth-child(9) {
+  -ms-grid-column: 7;
+      grid-column-start: 7;
+  grid-column-end: 10;
+}
+
+.item:nth-child(10) {
+  -ms-grid-column: 10;
+      grid-column-start: 10;
+  grid-column-end: 13;
+}
+
+.item:nth-child(11) {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.item:nth-child(12) {
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.item:nth-child(13) {
+  -ms-grid-column: 5;
+      grid-column-start: 5;
+  grid-column-end: 7;
+}
+
+.item:nth-child(14) {
+  -ms-grid-column: 7;
+      grid-column-start: 7;
+  grid-column-end: 9;
+}
+
+.item:nth-child(15) {
+  -ms-grid-column: 9;
+      grid-column-start: 9;
+  grid-column-end: 11;
+}
+
+.item:nth-child(16) {
+  -ms-grid-column: 11;
+      grid-column-start: 11;
+  grid-column-end: 13;
+}
+/*# sourceMappingURL=style.css.map */

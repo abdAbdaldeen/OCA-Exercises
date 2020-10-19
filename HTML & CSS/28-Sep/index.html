@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        th, td {
+          padding: 8px;
+          text-align: left;
+          border-bottom: 1px solid #ddd;
+        }
+        
+        tr:hover {background-color:#f5f5f5;}
+
+        
+        </style>
+</head>
+
+<body>
+    <table>
+<thead>
+    <tr>
+        <th>fname</th>
+        <th>lname</th>
+        <th>phone</th>
+    </tr>
+</thead>
+<tr>
+    <td>ahmad</td>
+    <td rowspan="2">anas</td>
+    <td>07799</td>
+</tr>
+<tr>
+    <td >hala</td>
+    <td >07799</td>
+</tr>
+<tr>
+    <td colspan="2">ahmad</td>
+    <td>07799</td>
+</tr>
+
+    </table>
+
+
+
+<!-- ----------------------------------- -->
+<div class="split left">
+    
+    <h2>Sign Up</h2>    
+    <form id="Aform">
+
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname"> <br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname">
+
+<hr>
+    <input type="radio" id="male"  value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female"  value="female">
+  <label for="female">Female</label><br>
+
+  <hr>
+
+  <h3>You have account on:</h3>
+  <input type="checkbox" id="vehicle1"  value="Bike">
+  <label for="vehicle1"> facebook</label><br>
+  <input type="checkbox" id="vehicle2"  value="Car">
+  <label for="vehicle2"> instagram</label><br>
+
+<hr>
+
+<label for="birthday">Birthday:</label>
+<input type="date" id="birthday" >
+
+<hr>
+
+<label for="phone">phone:</label>
+<input type="number" id="phone" >
+
+<hr>
+
+<label for="city">City:</label>
+
+<select id="city">
+  <option value="1">amman</option>
+  <option value="2">zarqa</option>
+  <option value="3">irbid</option>
+</select>
+<hr>
+
+<label >Your feedback</label><br>
+<textarea  form="Aform"></textarea>
+
+<hr>
+
+<input type="submit" value="Sign Up">
+<input type="reset">
+
+</form>
+
+</div>
+
+<!-- ----------------------------------- -->
+<div class="split right"></div>
+<h2>Log In</h2> 
+<form >
+    <label for="email">Email:</label>
+    <input type="email" id="email" >
+    |
+    <label for="pwd">Password:</label>
+    <input type="password" id="pwd" >
+
+    <input type="submit" value="Log In">
+    <input type="reset">
+</form>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</body>
+
+</html>

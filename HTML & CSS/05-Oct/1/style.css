@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.item {
+    border: 1px solid black;
+    padding: 1.35rem;
+    background-color: slategray;
+    flex: 1;
+    margin: .75rem;
+    text-align: center;
+}

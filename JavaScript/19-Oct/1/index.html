@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script
+    src="https://kit.fontawesome.com/7fbcf8a158.js"
+    crossorigin="anonymous"
+  ></script>
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
+</head>
+<body>
+<div id="createAccount">
+    <h2>Create an Account</h2>
+    <form >
+        <label id="pName">Name is incorrect</label>
+        <input type="text" name="" id="name" placeholder="&#xf508 Name"><br>
+        <label id="pPhone">Phone Number is incorrect</label>
+        <input type="text" name="" id="phone" placeholder="&#xf2a0 Phone Number"><br>
+        <label id="pEmail">Email is incorrect</label>
+        <input type="text" name="" id="email" placeholder="&#xf0e0 Email"><br>
+        <label id="pPassword">Password is incorrect</label>
+        <input type="password" name="" id="password" placeholder="&#xf023 Password"><br>
+        <input type="checkbox" name="" id="agree" onchange="checkbox()"><span>I agree to the <a href="">Terms and Conditions</a> and <a href="">Privacy Poliev</a></span><br><br>
+    </form>
+    <div class="flex"><button id="button" onclick="submit()">Create Account</button></div><br>
+    
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0.5rem 0.75rem;
+}
+
+.item {
+    margin: 0;
+}
+
+img {
+    height: 10rem;
+    min-width: 18rem;
+}
