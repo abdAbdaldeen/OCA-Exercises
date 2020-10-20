@@ -1,5 +1,6 @@
 document.getElementById("button").disabled = true;
 $("label").hide();
+
 function submit() {
     $("label").hide();
     var phone = document.getElementById('phone').value;

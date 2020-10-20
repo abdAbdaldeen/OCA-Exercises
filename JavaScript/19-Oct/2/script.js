@@ -11,93 +11,93 @@
 // You should apply the OOP 4 principles in your code (Encapsulation, Abstraction, Inheritance, Polymorphism).
 // Have fun coding, keep your fingers busy :wink:
 
-class Person{
- #age;
- #gender;
- constructor(age,gender){
-     this.#age=age;
-     this.#gender=gender;
- }
- setAge(age){
-    this.#age=age;
- }
- getAge = () => this.#age;
- printData(){console.log(`age =${this.#age}, gender =${this.#gender}`);}
+class Person {
+    #age;
+    #gender;
+    constructor(age, gender) {
+        this.#age = age;
+        this.#gender = gender;
+    }
+    setAge(age) {
+        this.#age = age;
+    }
+    getAge = () => this.#age;
+    printData() { console.log(`age =${this.#age}, gender =${this.#gender}`); }
 
 }
-amal = new Person(14,"F");
-duaa=new Person(55,"M");
+amal = new Person(14, "F");
+duaa = new Person(55, "M");
 amal.printData();
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-class teacher extends Person{
+class Teacher extends Person {
     #major;
-    constructor(age,gender,major){
-       super(age,gender);
-       this.#major=major;
+    constructor(age, gender, major) {
+        super(age, gender);
+        this.#major = major;
     }
-    setAge(major){
-        this.#major=major;
-     }
-     getAge = () => this.#major;
-     printData(){
-         super.printData();
-         console.log(`,major =${this.#major}`);
-     }
+    setAge(major) {
+        this.#major = major;
     }
+    getAge = () => this.#major;
+    printData() {
+        super.printData();
+        console.log(`,major =${this.#major}`);
+    }
+}
 
 
-var ahmad = new teacher(30,"M","Mathematics");
+var ahmad = new Teacher(30, "M", "Mathematics");
 ahmad.printData();
 // ------------------------------------
 
-class Car{
+class Car {
     #model;
     #topSpeed;
     #position;
-constructor(model,topSpeed){
-    this.#model=model;
-    this.#topSpeed=topSpeed;
-    this.#position=new Number();
-}
-setAge(topSpeed){
-    this.#topSpeed=topSpeed;
- }
- getAge = () => this.#topSpeed;
+    constructor(model, topSpeed) {
+        this.#model = model;
+        this.#topSpeed = topSpeed;
+        this.#position = new Number();
+    }
+    setAge(topSpeed) {
+        this.#topSpeed = topSpeed;
+    }
+    getAge = () => this.#topSpeed;
 
-//There is no real function overloading in JavaScript
+    //There is no real function overloading in JavaScript
     // gas(){
     //  this.#position+=1;
     //  console.log(`the car is in position:${this.#position} now.`)
     // }
-    gas(push){
-    this.#position+=push;
-    console.log(`the car is in position:${this.#position} now.`)
- }
+    gas(push) {
+        this.#position += push;
+        console.log(`the car is in position:${this.#position} now.`)
+    }
 }
- const myCar = new Car("X6",200); 
- const ahmadsCar = new Car("H100",160); 
- myCar.gas(1);
- myCar.gas(5);
+const myCar = new Car("X6", 200);
+const ahmadsCar = new Car("H100", 160);
+myCar.gas(1);
+myCar.gas(5);
 
 // ------------------------------------
-class Animal{
+class Animal {
     #age;
     #gender;
-    constructor(age,gender){
-        this.#age=age;
-        this.#gender=gender;
-        
+    constructor(age, gender) {
+        this.#age = age;
+        this.#gender = gender;
+
     }
-    setAge(age){
-       this.#age=age;
+    setAge(age) {
+        this.#age = age;
     }
     getAge = () => this.#age;
 
     display() {
         console.log('a = ' + this.a);
         console.log('b = ' + this.b);
-      }
-   }
-   const cat3bsy = new Animal(2,"M");
-   const catSaqer = new Animal(1,"M");
+    }
+}
+const cat3bsy = new Animal(2, "M");
+const catSaqer = new Animal(1, "M");
