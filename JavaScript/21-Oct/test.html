@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color:#f5f5f5;}
+</style>
+
+</head>
+<body>
+<form>
+<input type="text" placeholder="Key" id="key">
+<input type="text" placeholder="Value" id="value">
+
+<button onclick="localSubmit()">Local Submit</button>
+<button onclick="sessionSubmit()">Session Submit</button>
+<input type="reset" value="Clear" onclick="clearr()">
+<!-- <button onclick="clearr()">Clear</button> -->
+</form>
+<h2>Local Storage</h2>
+<table id="localTable">
+  <thead>
+    <tr>
+      <th>
+        Key
+      </th>
+      <th>
+        Value
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+
+  </tbody>
+</table>
+
+<h2>Session Storage</h2>
+<table id="sessionTable">
+  <thead>
+    <tr>
+      <th>
+        Key
+      </th>
+      <th>
+        Value
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    
+  </tbody>
+</table>
+<div id="demo"></div>
+  <script src="script.js"></script>
+</body>
+</html>
