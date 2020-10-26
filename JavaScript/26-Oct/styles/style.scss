@@ -12,7 +12,7 @@ button {
     box-sizing: border-box;
     padding-top: 20%;
     background-color: #62306c;
-    width: 100%;
+    width: 50vw;
     height: 100vh;
     .r1 {
       padding: 0px 15%;
@@ -21,8 +21,8 @@ button {
         border-radius: 100% 100% 0px 0px;
         background: #f7eb7d;
         // padding: 20px;
-        width: 30%;
-        height: 150px;
+        width: 11vw;
+        height: 11vw;
       }
     }
     .r2 {
@@ -33,50 +33,50 @@ button {
         // margin: auto;
         border-radius: 0px 0px 100% 100%;
         background: #f7eb7d;
-        width: 30%;
-        height: 150px;
+        width: 11vw;
+        height: 11vw;
       }
       .rcornersBH {
-        width: 30%;
-        height: 150px;
+        width: 11vw;
+        height: 11vw;
       }
     }
   }
   .left {
     padding-top: 20%;
     box-sizing: border-box;
-    width: 100%;
+    width: 50vw;
     height: 100vh;
     background-color: #6591ce;
     .s1 {
       background-color: #243c82;
-      width: 80%;
+      width: 40vw;
       margin: auto;
-      height: 300px;
+      height: 20vw;
 
       .s2 {
         margin: auto;
-        width: 450px;
+        width: 30vw;
         background-color: #6591ce;
-        height: 450px;
+        height: 30vw;
         border-radius: 100%;
         position: relative;
-        top: -75px;
+        top: -5vw;
         display: flex;
         align-items: center;
         .s3 {
           margin: auto;
-          width: 300px;
+          width: 20vw;
           background-color: #243c82;
-          height: 300px;
+          height: 20vw;
           border-radius: 100%;
           display: flex;
           align-items: center;
           justify-content: center;
           .s4 {
             background-color: #edb850;
-            height: 100px;
-            width: 100px;
+            height: 7vw;
+            width: 7vw;
             border-radius: 100%;
           }
         }
